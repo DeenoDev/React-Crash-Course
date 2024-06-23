@@ -7,10 +7,7 @@ const App = () => {
     <>
     
     <Navbar />
-    <Hero />
-    
-    
-
+    <Hero title="Test Title" subtitle="This is the subtitle"/>
     
     <section className="py-4">
       <div className="container-xl lg:container m-auto">
