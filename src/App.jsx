@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
+import Hero from './components/Hero';;
+import HomeCards from './components/HomeCards';
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
     
     <Navbar />
     <Hero />
+    <HomeCards />
     
     <section className="py-4">
       <div className="container-xl lg:container m-auto">
