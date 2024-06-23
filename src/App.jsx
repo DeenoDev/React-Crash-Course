@@ -7,7 +7,7 @@ const App = () => {
     <>
     
     <Navbar />
-    <Hero title="Test Title" subtitle="This is the subtitle"/>
+    <Hero />
     
     <section className="py-4">
       <div className="container-xl lg:container m-auto">
