@@ -11,7 +11,7 @@ const router = createBrowserRouter(
 );
 
 const App = () => {
-  return 
+  return <RouterProvider />
   
 };
 
