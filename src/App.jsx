@@ -6,6 +6,10 @@ import HomeCards from './components/HomeCards';
 import JobListings from './components/JobListings';
 import ViewAllJobs from './components/ViewAllJobs';
 
+const router = createBrowserRouter(
+  createRoutesFromElements(<Route />)
+);
+
 const App = () => {
   return (
     <>
