@@ -7,21 +7,12 @@ import JobListings from './components/JobListings';
 import ViewAllJobs from './components/ViewAllJobs';
 
 const router = createBrowserRouter(
-  createRoutesFromElements(<Route />)
+  createRoutesFromElements(<Route index element={<h1>My App</h1>} />)
 );
 
 const App = () => {
-  return (
-    <>
-    
-    <Navbar />
-    <Hero />
-    <HomeCards />
-    <JobListings/>
-    <ViewAllJobs />
-
-    </>
-  );
-}
+  return 
+  
+};
 
 export default App;
