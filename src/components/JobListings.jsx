@@ -13,16 +13,8 @@ const JobListings = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           { recentJobs.map((job) =>(
-            <JobListing key={ jobs.id } job={ job }/>
-           
-            
-          ) )}
-          
-          
-          
-         
-          
-          
+            <JobListing key={ jobs.id } job={ job }/> 
+          ) )}  
         </div>
       </div>
     </section>
