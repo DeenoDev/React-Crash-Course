@@ -1,6 +1,8 @@
+import React from 'react';
 import { useState } from 'react';
 import { FaMapMarker } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import job from '../jobs.json';
 
 const JobListing = ({ job }) => {
   const [showFullDescription, setShowFullDescription] = useState(false);
@@ -8,7 +10,7 @@ const JobListing = ({ job }) => {
   let description = job.description;
 
   if (!showFullDescription) {
-    description = description.substring(0, 90) + '...';
+    description.substring(0, 90) + '...';
   }
 
   return (
@@ -48,4 +50,5 @@ const JobListing = ({ job }) => {
     </div>
   );
 };
+
 export default JobListing;
