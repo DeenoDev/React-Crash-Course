@@ -2,7 +2,7 @@ import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider} f
 import React from 'react';
 import HomePage from './pages/HomePage';
 import MainLayout from './layouts/MainLayout';
-import JobListings from './components/JobListings';
+import JobsPages from './pages/JobsPages';
 
 
 const router = createBrowserRouter(
