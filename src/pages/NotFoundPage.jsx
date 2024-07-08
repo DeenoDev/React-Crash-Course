@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const NotFoundPage = () => {
   return (
@@ -9,8 +10,8 @@ const NotFoundPage = () => {
       <a
         href="/index.html"
         className="text-white bg-indigo-700 hover:bg-indigo-900 rounded-md px-3 py-2 mt-4"
-        >Go Back</a
-      >
+        >Go Back
+        </a>
     </section>
   )
 }
