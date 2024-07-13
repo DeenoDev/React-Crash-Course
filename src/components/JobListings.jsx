@@ -5,6 +5,7 @@ import JobListing from './JobListing';
 
 const JobListings = ({ isHome = false }) => {
   const [jobs, setJobs]= useState([]);
+  const [loading, setLoading] = useState(true);
 
   return (
     <section className="bg-blue-50 px-4 py-10">
