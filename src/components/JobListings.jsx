@@ -4,7 +4,7 @@ import React from 'react';
 import JobListing from './JobListing';
 
 const JobListings = ({ isHome = false }) => {
-  
+  const [jobs, setJobs]= useState([]);
 
   return (
     <section className="bg-blue-50 px-4 py-10">
