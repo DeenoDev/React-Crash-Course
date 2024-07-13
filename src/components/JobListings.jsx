@@ -16,6 +16,8 @@ const JobListings = ({ isHome = false }) => {
       } catch (error) {
         console.log('Error fetching data', error);
         
+      } finally{
+        setLoading(false);
       }
        
     }
@@ -29,7 +31,7 @@ const JobListings = ({ isHome = false }) => {
           { isHome ? 'Recent Jobs' : 'Browse Jobs' }
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          { JobListings.map((job) =>(
+          { jobs.map((job) =>(
             <JobListing key={ job.id } job={ job }/>
           ) )}  
         </div>
