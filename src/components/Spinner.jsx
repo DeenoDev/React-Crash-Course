@@ -1,9 +1,14 @@
 import React from 'react';
 import ClipLoader from "react-spinners/ClipLoader";
 
-const Spinner = () => {
+const Spinner = ({loading}) => {
   return (
-    <div>Spinner</div>
+    <ClipLoader 
+    color='#4338ca'
+    loading={ loading }
+    cssOverride={overide}
+    
+    />
   )
 }
 
