@@ -1,6 +1,11 @@
 import React from 'react';
 import ClipLoader from "react-spinners/ClipLoader";
 
+const overide = {
+    display: 'block',
+    margin: '100px auto'
+}
+
 const Spinner = ({loading}) => {
   return (
     <ClipLoader 
