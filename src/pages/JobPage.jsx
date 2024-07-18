@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import {useState, useEffect} from 'react';
 
 const JobPage = () => {
-  return (
+  return 
     <div>JobPage</div>
-  )
+  
 }
+
 
 export default JobPage
