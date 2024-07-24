@@ -28,8 +28,9 @@ const JobPage = () => {
 
 
   return 
-    <div>JobPage</div>
-  
+    loading ? <Spinner /> : (
+      <h1>Job</h1>
+    );
 };
 
 
