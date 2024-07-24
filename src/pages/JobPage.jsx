@@ -31,5 +31,7 @@ const JobPage = () => {
     loading ? <Spinner /> : <h1>{job.title}</h1>;
 };
 
+const jobLoader = async ({}) => {};
+
 
 export default JobPage;
