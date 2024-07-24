@@ -9,7 +9,7 @@ const JobPage = () => {
   useEffect(() => {
     const fetchJob = async () => {
       try {
-        const res = await fetch(apiUrl);
+        const res = await fetch(`/api/job/${id}`);
         const data = await res.json();
         setJob(data);  
       } catch (error) {
