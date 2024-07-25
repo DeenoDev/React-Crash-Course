@@ -43,11 +43,11 @@ const JobPage = () => {
 
             <div className="bg-white p-6 rounded-lg shadow-md mt-6">
               <h3 className="text-indigo-800 text-lg font-bold mb-6">
-                {job.description}
+                Job Description
               </h3>
 
               <p className="mb-4">
-               We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as React or Angular.
+               {job.description}
               </p>
 
               <h3 className="text-indigo-800 text-lg font-bold mb-2">Salary</h3>
