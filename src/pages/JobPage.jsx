@@ -78,7 +78,7 @@ const JobPage = () => {
 
               <h3 class="text-xl">Contact Phone:</h3>
 
-              <p class="my-2 bg-indigo-100 p-2 font-bold">555-555-5555</p>
+              <p class="my-2 bg-indigo-100 p-2 font-bold">{job.company.contactPhone}</p>
             </div>
 
            
