@@ -31,7 +31,7 @@ const JobPage = () => {
             >
               <div className="text-gray-500 mb-4">{job.type}</div>
               <h1 className="text-3xl font-bold mb-4">
-                Senior React Developer
+                {job.title}
               </h1>
               <div
                 className="text-gray-500 mb-4 flex align-middle justify-center md:justify-start"
