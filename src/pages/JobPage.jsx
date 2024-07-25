@@ -38,4 +38,4 @@ const jobLoader = async ({ params }) => {
 };
 
 
-export default JobPage;
+export {JobPage as default, jobLoader} ;
