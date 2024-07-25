@@ -16,7 +16,7 @@ const JobPage = () => {
           href="/jobs.html"
           className="text-indigo-500 hover:text-indigo-600 flex items-center"
         >
-          <i className="fas fa-arrow-left mr-2"></i> Back to Job Listings
+          <FaArrowLeft className='mr-2' /> Back to Job Listings
         </a>
       </div>
     </section>
