@@ -50,9 +50,9 @@ const JobPage = () => {
                {job.description}
               </p>
 
-              <h3 className="text-indigo-800 text-lg font-bold mb-2">{job.salary}</h3>
+              <h3 className="text-indigo-800 text-lg font-bold mb-2">Salary</h3>
 
-              <p className="mb-4">$70k - $80K / Year</p>
+              <p className="mb-4">{job.salary}</p>
             </div>
           </main>
 
@@ -62,7 +62,7 @@ const JobPage = () => {
             <div class="bg-white p-6 rounded-lg shadow-md">
               <h3 class="text-xl font-bold mb-6">Company Info</h3>
 
-              <h2 class="text-2xl">NewTek Solutions</h2>
+              <h2 class="text-2xl">{job.company.name}</h2>
 
               <p class="my-2">
                 NewTek Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.
