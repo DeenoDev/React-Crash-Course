@@ -50,7 +50,7 @@ const JobPage = () => {
                {job.description}
               </p>
 
-              <h3 className="text-indigo-800 text-lg font-bold mb-2">Salary</h3>
+              <h3 className="text-indigo-800 text-lg font-bold mb-2">{job.salary}</h3>
 
               <p className="mb-4">$70k - $80K / Year</p>
             </div>
