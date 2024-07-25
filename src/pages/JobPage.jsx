@@ -65,7 +65,7 @@ const JobPage = () => {
               <h2 class="text-2xl">{job.company.name}</h2>
 
               <p class="my-2">
-                NewTek Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.
+               {job.company.description}
               </p>
 
               <hr class="my-4" />
