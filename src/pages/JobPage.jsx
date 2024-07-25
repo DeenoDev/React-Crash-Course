@@ -73,7 +73,7 @@ const JobPage = () => {
               <h3 class="text-xl">Contact Email:</h3>
 
               <p class="my-2 bg-indigo-100 p-2 font-bold">
-                contact@newteksolutions.com
+                {job.company.contactEmail}
               </p>
 
               <h3 class="text-xl">Contact Phone:</h3>
