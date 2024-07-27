@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 
-const AddJobPage = () => {
+const AddJobPage = ({ addJobSubmit }) => {
   const [title, setTitle] = useState('');
   const [type, setType] = useState('Full-Time');
   const [location, setLocation] = useState('');
@@ -27,7 +27,9 @@ const AddJobPage = () => {
         contactEmail,
         contactPhone
       },
-    }
+    };
+
+    console.log(newJob);
 
    }
    
