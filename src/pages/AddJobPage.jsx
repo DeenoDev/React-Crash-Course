@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { useState } from 'react';
 
 const AddJobPage = () => {
   return (
@@ -29,8 +30,7 @@ const AddJobPage = () => {
 
             <div className="mb-4">
               <label className="block text-gray-700 font-bold mb-2"
-                >Job Listing Name</label
-              >
+                >Job Listing Name</label>
               <input
                 type="text"
                 id="title"
