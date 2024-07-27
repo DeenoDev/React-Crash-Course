@@ -143,6 +143,8 @@ const AddJobPage = () => {
                 className="border rounded w-full py-2 px-3"
                 rows="4"
                 placeholder="What does your company do?"
+                value={companyDescription}
+                onChange={(e) => setCompanyDescription(e.target.value)}
               ></textarea>
             </div>
 
