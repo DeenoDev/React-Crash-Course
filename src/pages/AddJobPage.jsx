@@ -107,7 +107,9 @@ const AddJobPage = () => {
                 name='location'
                 className='border rounded w-full py-2 px-3 mb-2'
                 placeholder='Company Location'
-                required           
+                required
+                value={location}
+                onChange={(e) => setLocation(e.target.value)}           
               />
             </div>
 
