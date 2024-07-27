@@ -11,7 +11,7 @@ const AddJobPage = () => {
             <h2 className="text-3xl text-center font-semibold mb-6">Add Job</h2>
 
             <div className="mb-4">
-              <label for="type" className="block text-gray-700 font-bold mb-2"
+              <label htmlFor="type" className="block text-gray-700 font-bold mb-2"
                 >Job Type</label
               >
               <select
@@ -42,7 +42,7 @@ const AddJobPage = () => {
             </div>
             <div className="mb-4">
               <label
-                for="description"
+               htmlFor="description"
                 className="block text-gray-700 font-bold mb-2"
                 >Description</label
               >
@@ -56,7 +56,7 @@ const AddJobPage = () => {
             </div>
 
             <div className="mb-4">
-              <label for="type" className="block text-gray-700 font-bold mb-2"
+              <label htmlFor="type" className="block text-gray-700 font-bold mb-2"
                 >Salary</label
               >
               <select
@@ -96,7 +96,7 @@ const AddJobPage = () => {
             <h3 className="text-2xl mb-5">Company Info</h3>
 
             <div className="mb-4">
-              <label for="company" className="block text-gray-700 font-bold mb-2"
+              <label htmlFor="company" className="block text-gray-700 font-bold mb-2"
                 >Company Name</label
               >
               <input
@@ -110,7 +110,7 @@ const AddJobPage = () => {
 
             <div className="mb-4">
               <label
-                for="company_description"
+               htmlFor="company_description"
                 className="block text-gray-700 font-bold mb-2"
                 >Company Description</label
               >
@@ -125,7 +125,7 @@ const AddJobPage = () => {
 
             <div className="mb-4">
               <label
-                for="contact_email"
+               htmlFor="contact_email"
                 className="block text-gray-700 font-bold mb-2"
                 >Contact Email</label
               >
@@ -134,13 +134,13 @@ const AddJobPage = () => {
                 id="contact_email"
                 name="contact_email"
                 className="border rounded w-full py-2 px-3"
-                placeholder="Email address for applicants"
+                placeholder="Email address htmlFor applicants"
                 required
               />
             </div>
             <div className="mb-4">
               <label
-                for="contact_phone"
+               htmlFor="contact_phone"
                 className="block text-gray-700 font-bold mb-2"
                 >Contact Phone</label
               >
@@ -149,7 +149,7 @@ const AddJobPage = () => {
                 id="contact_phone"
                 name="contact_phone"
                 className="border rounded w-full py-2 px-3"
-                placeholder="Optional phone for applicants"
+                placeholder="Optional phone htmlFor applicants"
               />
             </div>
 
