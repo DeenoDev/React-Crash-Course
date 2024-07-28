@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 
 
 const JobPage = ({ deleteJob }) => {
+  const navigate = useNavigate();
   const { id } = useParams();
   const job = useLoaderData();
 
@@ -15,6 +16,8 @@ const JobPage = ({ deleteJob }) => {
     if(!confirm) return;
 
     deleteJob(jobId);
+
+    navigate('/jobs');
 
   }
 
