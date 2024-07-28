@@ -5,7 +5,7 @@ import { FaArrowLeft, FaMapMarker } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 
-const JobPage = () => {
+const JobPage = ({ deleteJob }) => {
   const { id } = useParams();
   const job = useLoaderData();
 
