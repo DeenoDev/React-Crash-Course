@@ -23,8 +23,11 @@ const App = () => {
   //Delete Job
 
   const deleteJob = async (id) => {
-    console.log('delete', id);
-  }
+      const res = await fetch(`/api/jobs/${id}`, {
+        method: 'DELETE',
+      });
+      return;
+    };
 
   const router = createBrowserRouter(
     createRoutesFromElements(

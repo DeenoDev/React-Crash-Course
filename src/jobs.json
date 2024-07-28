@@ -83,20 +83,6 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
-    },
-    {
-      "id": "8c99",
-      "title": "Web Developer",
-      "type": "Full-Time",
-      "location": "Port Elizabeth",
-      "description": "Test Job",
-      "salary": "Under $50K",
-      "company": {
-        "name": "Omni-Web",
-        "description": "This is a great company.",
-        "contactEmail": "Dida@gmail.com",
-        "contactPhone": "0736503639"
-      }
     }
   ]
 }
