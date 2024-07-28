@@ -88,7 +88,7 @@ const JobPage = ({ deleteJob }) => {
                 to={`/jobs/edit/${job.id}`}
                 class="bg-indigo-500 hover:bg-indigo-600 text-white text-center font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block"
                 >Edit Job</Link>
-              <button
+              <button onClick={ () => onDeleteClick(job.id)}
                 class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block"
               >
                 Delete Job
