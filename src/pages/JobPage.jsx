@@ -9,6 +9,15 @@ const JobPage = ({ deleteJob }) => {
   const { id } = useParams();
   const job = useLoaderData();
 
+  const onDeleteClick = (jobId) => {
+    const confirm = window.confirm('Are you sure you want to delete this listing?');
+
+    if(!confirm){
+      return;
+    }
+
+  }
+
   return  (
     <>
       <section>
