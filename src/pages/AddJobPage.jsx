@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { toast } from 'react-toastify';
 
 const AddJobPage = ({ addJobSubmit }) => {
   const [title, setTitle] = useState('');
@@ -33,6 +34,8 @@ const AddJobPage = ({ addJobSubmit }) => {
     };
 
     addJobSubmit(newJob);
+
+    toast.success('Job Added successfully');
 
     return navigate('/jobs');
    };
@@ -195,8 +198,7 @@ const AddJobPage = ({ addJobSubmit }) => {
               <label
                htmlFor="contact_phone"
                 className="block text-gray-700 font-bold mb-2"
-                >Contact Phone</label
-              >
+                >Contact Phone</label>
               <input
                 type="tel"
                 id="contact_phone"
