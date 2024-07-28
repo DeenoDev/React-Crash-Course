@@ -1,6 +1,6 @@
 import React from 'react';
 // import {useState, useEffect} from 'react';
-import {useParams, useLoaderData} from 'react-router-dom';
+import {useParams, useLoaderData, useNavigate} from 'react-router-dom';
 import { FaArrowLeft, FaMapMarker } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
@@ -12,9 +12,9 @@ const JobPage = ({ deleteJob }) => {
   const onDeleteClick = (jobId) => {
     const confirm = window.confirm('Are you sure you want to delete this listing?');
 
-    if(!confirm){
-      return;
-    }
+    if(!confirm) return;
+
+    deleteJob(jobId);
 
   }
 
