@@ -3,6 +3,8 @@ import { useState } from 'react';
 import {useParams, useLoaderData, useNavigate} from 'react-router-dom';
 
 const EditJobPage = () => {
+  const job = useLoaderData();
+
   const [title, setTitle] = useState(job.title);
   const [type, setType] = useState(job.type);
   const [location, setLocation] = useState(job.location);
@@ -13,7 +15,9 @@ const EditJobPage = () => {
   const [contactEmail, setContactEmail] = useState(job.company.contactEmail);
   const [contactPhone, setContactPhone] = useState(job.company.contactPhone);
 
-  const job = useLoaderData();
+  
+
+  const submitForm = (e) => {}
 
   return (
     <section className="bg-indigo-50">
